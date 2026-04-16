@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-item1">
+                <img src="logo-img.png" alt="logo-image" class="logo-image" width="250rem">
+            </div>
+            <div class="navbar-item2">
+                <!-- <a class="nav-links" href="index.html">Home</a>
+                <a class="nav-links" href="#">About</a> -->
+                <button class="nav_btn"onclick="goToHome()">Home</button>
+                <button class="nav_btn"onclick="goToAbout()">About</button>
+                <button class="nav_btn"onclick="goToSkills()">Skills</button>
+                <!-- <a class="nav-links" href="skills.html">Skills</a> -->
+                <a class="nav-links" href="project.html">Projects</a>
+                <a class="nav-links" href="contact.html">Contact</a>
+
+            </div>
+
+        </div>
+
+    </nav>
+    <div class="hero">
+        <div class="hero1">
+            <span class="hero-text" id="hero-text1">Hi, I’m <p style="color: rgb(233, 128, 128); display: inline;">
+                    Priyank</p></span><br>
+            <span class="hero-text" id="hero-text2">Full-Stack Developer | Java • React • SQL</span><br>
+            <span class="hero-text" id="hero-text3">I build scalable web applications and turn ideas into clean,
+                efficient code.</span>
+            <span class="hero-text" id="hero-text3">Passionate about problem-solving and modern web technologies.</span>
+            <span class="hero-button"><button class="project-btn" onclick="openLinkedin()">Linkedin</button>
+                <button class="contact-btn" onclick="openWhatsapp()">Whatsapp</button>
+            </span>
+        </div>
+        <div class="hero2">
+            <img src="" class="hero-img" alt="">
+        </div>
+
+    </div>
+    <br>
+    <hr>
+<section id="about">
+    <div class="about_section">
+
+        <h1 class="about-heading testimonial-heading">About me </h1>
+
+        <p class="about-desc">Hello! I'm <strong style="color: rgb(199, 107, 107);">Priyank Chaudhary</strong>, a motivated Full-Stack Developer who loves turning ideas into reality through code.<br>
+
+I specialize in building responsive and interactive websites using technologies like Java, JavaScript, React, and SQL.<br>
+
+I am always eager to learn new skills, explore modern technologies, and improve my problem-solving abilities.<br>
+
+My goal is to grow as a developer and contribute to meaningful and innovative projects.</p>
+
+        <!-- <div class="education_sec">
+            <div class="edu-card">
+                <h4 class="edu-head">10th & 12th</h4>
+                <div class="edu-desc">
+                    <div class="edu_img"></div>
+                    <span class="edu-desc-text">St. Fransis Inter College  <br>
+                        2024-2028
+                    </span>
+                </div>
+            </div>
+
+            <div class="edu-card">
+                <h4 class="edu-head">Education</h4>
+                <div class="edu-desc">
+                    <div class="edu_img"></div>
+                    <span class="edu-desc-text">Btech in Computer Science <br>
+                        2024-2028
+                    </span>
+                </div>
+            </div>
+
+            
+        </div> -->
+        </section>
+        <div class="blog">
+            <div class="blog-container">
+                <div class="blog-card">
+                    <div class="card_img"><img class="blog-card-img"
+                            src="https://images.unsplash.com/photo-1542837336-d14bdf342f9b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdlYiUyMGRldnxlbnwwfHwwfHx8MA%3D%3D"
+                            alt="" width="110px" height="160px"></div>
+                    <div class="card_text">
+                        <span class="blog-text-heading"> My Journey into Web Development</span><br>
+                        <span class="blog-text-desc">Description:
+                            I started learning web development during my B.Tech journey. In this blog, I share how I
+                            learned
+                            HTML, CSS, and Bootstrap and built my first projects.</span>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="card_img">
+                        <img class="blog-card-img"
+                            src="https://images.unsplash.com/photo-1493612276216-ee3925520721?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHBvcnRmb2xpb3xlbnwwfHwwfHx8MA%3D%3D"
+                            alt="" width="110px" height="160px">
+                    </div>
+                    <div class="card_text"><span class="blog-text-heading"> How I Built My Personal Portfolio
+                            Website</span><br>
+                        <span class="blog-text-desc">Description:
+                            In this blog, I explain how I designed and developed my personal portfolio using HTML, CSS,
+                            and
+                            JavaScript, and what I learned from it.</span>
+                    </div>
+
+                </div>
+                <div class="blog-card">
+                    <div class="card_img"><img class="blog-card-img"
+                            src="https://images.unsplash.com/photo-1688733720228-4f7a18681c4f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA4fHxjc3N8ZW58MHx8MHx8fDA%3D"
+                            alt="" width="110px" height="160px"></div>
+                    <div class="card_text"><span class="blog-text-heading"> Tips to Learn CSS Faster (For
+                            Beginners)</span><br>
+                        <span class="blog-text-desc">Description:
+                            CSS can be confusing for beginners. Here are some tips, resources, and practice methods that
+                            helped me improve my CSS skills quickly.</span>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="card_img"><img class="blog-card-img"
+                            src="https://plus.unsplash.com/premium_photo-1661311950994-d263ea9681a1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cm9hZG1hcHxlbnwwfHwwfHx8MA%3D%3D"
+                            alt="" width="110px" height="160px"></div>
+                    <div class="card_text"><span class="blog-text-heading"> Frontend Developer Roadmap for
+                            Students</span><br>
+                        <span class="blog-text-desc">Description:
+                            This blog explains a simple roadmap for students who want to become frontend developers,
+                            including skills, tools, and projects to build.</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <br>
+        <hr>
+        <div class="testimonial-container">
+            <h2 class="testimonial-heading">What People Says About Me</h2>
+
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-img">
+                        <img class="blog-card-img" src="drpavi.jpeg" width="110px" height="110px">
+                    </div>
+                    <div class="testimonial-text">
+                        <span class="blog-text-heading">Dr. Pavinder Yadav</span><br><br><br>
+                        <span class="blog-text-desc">Priyank is a hardworking student with strong interest in web
+                            development and UI design. He always tries to improve his skills.</span>
+                    </div>
+
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-img"> <img class="sachin-img" src="sachin.jpeg" width="110px"
+                            height="110px">
+                    </div>
+                    <div class="testimonial-text"><span class="blog-text-heading">Sachin</span><br><br><br>
+                        <span class="blog-text-desc">
+                            Priyank built a clean and modern website. His frontend skills and creativity are
+                            impressive..</span>
+                    </div>
+
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-img"> <img class="sachin-img" src="satvik.png" width="110px" height="110px">
+                    </div>
+
+                    <div class="testimonial-text"><span class="blog-text-heading">Satvik</span><br><br><br>
+                        <span class="blog-text-desc">He is very dedicated to learning full stack development and always
+                            helps others in coding.</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+            <div class="contact_section"></div>
+
+            <footer>
+                <div class="footer">
+                    <span class="footer-text">© 2026 Priyank. All rights reserved.</span>
+                </div>
+            </footer>
+            <script src="script.js"></script>
+</body>
