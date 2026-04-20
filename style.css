@@ -5,9 +5,7 @@
     background-color: black;
 }
 
-html {
-  scroll-behavior: smooth;
-}
+
 .navbar-container {
     width: 100%;
     background-color: transparent;
